@@ -22,3 +22,8 @@
   black-watch
 * http://ec2-3-133-111-158.us-east-2.compute.amazonaws.com/  
   jobotwar
+
+### Tech
+
+* https://github.com/clovaai/WCT2  
+  Wavelet Transform
