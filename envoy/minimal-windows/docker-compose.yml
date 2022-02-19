@@ -1,0 +1,11 @@
+version: '3'
+
+services:
+  proxy:
+    platform: windows
+    image: envoyproxy/envoy-windows:v1.21.0
+    volumes:
+      - .:C:\app:ro
+    ports:
+      - 10000:10000
+    command: '-c C:\app\envoy.yaml'
