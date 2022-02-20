@@ -1,0 +1,23 @@
+# supports load balancing over multiple minigrpc services:
+# docker-compose up --build --force-recreate --scale minigrpc=5
+#
+# test with:
+# grpcurl -plaintext -d '{ "name":"whatever" }' localhost:10000 greet.Greeter.SayHello
+
+version: "3"
+
+services:
+  proxy:
+    image: envoyproxy/envoy-alpine:v1.21.0
+    volumes:
+      - ./envoy.yaml:/etc/envoy/envoy.yaml:ro
+    ports:
+      - 10000:10000
+  minigrpc:
+    image: minigrpc
+    build:
+      context: ./minigrpc
+      dockerfile: Dockerfile
+    environment:
+      - ASPNETCORE_ENVIRONMENT=Development
+      - ASPNETCORE_URLS=http://+:5022

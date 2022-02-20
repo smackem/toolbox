@@ -1,18 +1,27 @@
+using Microsoft.AspNetCore.Server.Kestrel.Core;
 using MiniGrpc.Server.Services;
 
-var builder = WebApplication.CreateBuilder(args);
+namespace MiniGrpc.Server;
 
-// Additional configuration is required to successfully run gRPC on macOS.
-// For instructions on how to configure Kestrel and gRPC clients on macOS, visit https://go.microsoft.com/fwlink/?linkid=2099682
+internal static class Program
+{
+    private static void Main(string[] args)
+    {
+        var builder = WebApplication.CreateBuilder(args);
 
-// Add services to the container.
-builder.Services.AddGrpc();
-builder.Services.AddGrpcReflection();
+        // Additional configuration is required to successfully run gRPC on macOS.
+        // For instructions on how to configure Kestrel and gRPC clients on macOS, visit https://go.microsoft.com/fwlink/?linkid=2099682
 
-var app = builder.Build();
+        // Add services to the container.
+        builder.Services.AddGrpc();
+        builder.Services.AddGrpcReflection();
 
-// Configure the HTTP request pipeline.
-app.MapGrpcService<GreeterService>();
-app.MapGrpcReflectionService();
+        var app = builder.Build();
 
-app.Run();
+        // Configure the HTTP request pipeline.
+        app.MapGrpcService<GreeterService>();
+        app.MapGrpcReflectionService();
+
+        app.Run();
+    }
+}
