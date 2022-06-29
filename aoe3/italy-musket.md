@@ -1,10 +1,13 @@
 # Italy Musket Spam
 
-the goal is to enter commercial age with a strong eco and to quickly build a army to defend until mercs can be deployed.
+the goal is to enter commercial age with a strong eco and to quickly build an army for defende until mercs can be deployed.
 the problem with italy is that they start with only 3 settlers and do not have access to settler shipments. to make up
 for this weakness, they receive a settler for every tech they research.
+the key of to victory with this strat is to survive the initial onslaught against aggressive civ, then strike back as
+soon as your super merc shipments arrive.
+against less aggressive enemies (e.g. dutch, brits), try to ship mercs asap and strike a devastating blow.
 
-still they lag behind in commercial age speed. this strat remedies that by allowing you to go commercial with
+due to their 3 vil start, italy lags behind in commercial age speed. this strat remedies that by allowing you to go commercial with
 a reasonable time, an excellent eco and enough pop space to quickly grow a musket/parvesier/hussar army which
 will soon be complemented by mercs.
 lombards only come in late commercial - don't go crazy with them - they just allow you to keep concentrating
@@ -16,9 +19,16 @@ italy is an excellent cav civ!
 
 what this strat delivers is:
 - a 5:00 commercial time with
-- 16 villager population
+- 16/30 pop
 - all tier1 market techs researched (depending on treasures + tier2 hunting)
-- 30 pop space
+- one shipment ready, the next one close
+
+Needed cards:
+- capitalism
+- 3 taverns
+- 6 muskets / 7 pavesiers
+- age2 mercs (papal lancers + stradiot, crabats + scavione, hospitalliers + fire throwers + inquisitors)
+- basilika
 
 Build Order:
 - one vill goes to hunt, 2 to crates
