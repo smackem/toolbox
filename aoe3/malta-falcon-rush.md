@@ -1,7 +1,6 @@
 # The Maltese Falcon
 
-The goal is to use Malta's strengths to pressure your enemy early with a fb and order units, building up to a
-deadly blow with malta units.
+The goal is to use Malta's strengths to pressure your enemy early with a fb and order units, building up to a deadly blow with malta units.
 
 From the inital blow on, you are free to either go semi-ff or to keep on strangling your enemy in colonial.
 
@@ -10,6 +9,7 @@ outline:
 - 15/20 pop
 - a tower up
 - longbows under way
+- 9 longbows + commandery + tower on your enemy's doorstep at 5:30
 
 required cards:
 - 3 vils
@@ -24,7 +24,7 @@ required cards:
 
 nice-to-have:
 - 7 totenkopf hussars
-- irish brigadiers
+- 11 irish brigadiers
 - church card
 - any age3 unit shipment for semi-ff, but especially 9 fire throwers and Sovereign Order of Malta (malta unit combat)
 
@@ -39,11 +39,11 @@ build order:
 - explorer scouts enemy base and builds an outpost close to enemy's hunt or gold
 - queue 2 vills while ageing up, you will soon be popped
 - set tc gather point to gold
-- after reaching age2, gather wood with 4 vills and send british tongue
+- after reaching age2, gather wood crates with 4 vills and send british tongue
 - the 4 vills then build two houses with the remaining wood and go to hunt
 - set both shipment points to your forward tower, so that lbows and commandery wagon pop out there
 - build the commandery close to the tower
-- don't forget to set the economic gather shipment point back to your tc
+- don't forget to set the economic shipment point back to your tc
 - you now have two shooting buildings close to enemy's base
 - circle the enemy base with the lbows and pick villagers
 
