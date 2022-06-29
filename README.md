@@ -27,3 +27,9 @@
 
 * https://github.com/clovaai/WCT2  
   Wavelet Transform
+
+### Utility
+
+* https://www.makeuseof.com/how-to-disable-gatekeeper-mac/  
+  Disable MacOSX GateKeeper  
+  `sudo spctl --master-disable`
