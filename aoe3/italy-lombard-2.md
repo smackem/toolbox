@@ -27,4 +27,3 @@ variation of the standard italy lombard build for maps with starting towers (tex
 - have something like 30 vills on food, 5 on wood, 5 on gold and use lombards like crazy
 - build a second architect to help with construction when berries run out and outposts for defense
 - in age3, keep on sending papal units, build native units and rax units - kills anything :)
-
